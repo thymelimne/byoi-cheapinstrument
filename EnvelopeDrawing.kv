@@ -1,0 +1,72 @@
+
+<RibbonDrawing>:
+	
+
+<EnvelopeDrawing>:
+	canvas.before:
+		#Create the original canvas:
+        Color:
+			rgba: (255,255,255,.8) #White color, but a:=.8, to be 20% translucent to an otherwise black background, to make it light-gray.
+        Rectangle:
+            size: root.size
+            pos: root.pos
+			
+		
+		#Draw the axes of a simple plot:
+		Color:
+			rgba: 0,0,0,.75
+		Line: #(horizontal)
+			points: [root.size[0]/2-self.xaxis_length/2, root.size[1]/2-self.xaxis_lowness/2, root.size[0]/2+self.xaxis_length/2, root.size[1]/2-self.xaxis_lowness/2]
+			width: 2
+		Line: #(vertical)
+			points: [root.size[0]/2-self.xaxis_length/2, root.size[1]/2-self.xaxis_lowness/2, root.size[0]/2-self.xaxis_length/2, root.size[1]/2-self.xaxis_lowness/2+self.yaxis_height]
+			width: 2
+			
+			
+		#Draw the little nubs at the end of the thing
+		Color:
+			rgba: 0,0,0,.75
+		Line: #(xaxis)
+			points:
+				#[root.size[0]/2+self.xaxis_length/2, root.size[1]/2-self.xaxis_lowness/2-4, root.size[0]/2+self.xaxis_length/2, root.size[1]/2-self.xaxis_lowness/2+4] #at the end
+				[640, root.size[1]/2-self.xaxis_lowness/2+4, 640, root.size[1]/2-self.xaxis_lowness/2-4]
+			width: 2
+		Line:
+			points: 
+				#[root.size[0]/2-self.xaxis_length/2-4, root.size[1]/2-self.xaxis_lowness/2+self.yaxis_height, root.size[0]/2-self.xaxis_length/2+4, root.size[1]/2-self.xaxis_lowness/2+self.yaxis_height] #at the end
+				[root.size[0]/2-self.xaxis_length/2-4, 420, root.size[0]/2-self.xaxis_length/2+4, 420]
+			width: 2
+			
+			
+		#Draw the text to label the axes
+		Color:
+			rgba: 0,0,0,.75
+		#TODO: Implement this
+	
+			
+		#Draw the little nubs
+	#Write the header at the top of the page:
+	Label:
+		text: "envelope"
+		font_name: "font"
+		font_size: 64
+		pos: (root.pos[0], root.pos[1]+216)
+		color: 0,0,0,.75 #Not black. Only the brushstroke is pure black; everything else should be a less-intense gray, to be the background to the brushstroke.
+		#In this app, a goal is to evoke a sense of slick midcentury modern graphic design.
+		#If this app could manage to make it feel like a 1960's high-end infographic manual designer or artist at an advertising agency designed it, that would count as an artistic success.
+	RibbonDrawing:
+		one_touch_ago: (100,100)
+		thickness_threshold: 5
+		
+		
+		
+		
+		
+<DisplayEnvelope>:
+	canvas.before:
+		#Create the original canvas:
+        Color:
+			rgba: (1,0,0,.8)
+        Rectangle:
+            size: root.size
+            pos: root.pos
