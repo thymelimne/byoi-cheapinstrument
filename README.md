@@ -36,7 +36,7 @@ Using Python (in particular, an open-source Python library for graphics, called 
 ```Above are three more examples of possible function.```
 
 
-<h2>The next challenge: choice of data type</h2>
+<h2>Current challenge: choice of data type</h2>
 
 <h2>Footnotes</h2>
 [SEE2]For more details on how diverse oscillators can get, and the different sounds you can get, here's a simple demonstration by the great Wendy Carlos. https://www.youtube.com/watch?v=4SBDH5uhs4Q
