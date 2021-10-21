@@ -23,17 +23,17 @@ With this project here, part of the goal is to <b>break away</b> from the conven
 Using Python (in particular, an open-source Python library for graphics, called Kivy), an interactive drawing feature was made for this project. To make it user-friendly and intuitive, a fair amount of geometry has been put into the code, in hopes that the user's drawn line would look like a blotty-yet-smooth penstroke. Interestingly (well, mildly interesting), a small bug in the geometry has caused it to have a smooth ribbon-like quality, instead of what was intended. While this is okay for now, there is a plan to fix that bug, and enable the option to have a ribbon-stroke or a proper penstroke style for drawing.
 
 ![Screenshot (593)](https://user-images.githubusercontent.com/91765107/138289507-2b6e9fe8-9f8b-4e37-b775-5068084fb608.png)
-```Above is```
+```Above is an example of the app, drawn to resemble the ADSR standard.```
 
 ![Screenshot (594)](https://user-images.githubusercontent.com/91765107/138289599-72cc0bb6-3f61-43b5-887d-b969d7114d85.png)
-```Above is```
+```Above is a curve to vaguely evoke a piano note.```
 
 ![Screenshot (604)](https://user-images.githubusercontent.com/91765107/138289624-da71b222-05ec-4499-b279-7c17d9aa55ca.png)
 
 ![Screenshot (607)](https://user-images.githubusercontent.com/91765107/138289879-7e02b420-0edb-4077-ac08-6c662c578b52.png)
 
 ![Screenshot (608)](https://user-images.githubusercontent.com/91765107/138289909-51809ba4-9dbd-472c-bc4d-8d9ed939c3aa.png)
-```Above are three more examples of possible curves.```
+```Above are three more examples of possible function.```
 
 
 <h2>The next challenge: choice of data type</h2>
