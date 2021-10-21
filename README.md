@@ -36,7 +36,7 @@ Using Python (in particular, an open-source Python library for graphics, called 
 ```Above are three more examples of possible functions.```
 
 <h2>Upcoming challenge: data types</h2>
-As said before, the point of this app is to output modules of data that can be used in the CheapInstrument music synthesizer application. However, it still needs to be figured out what this data should look like. More work needs to be done on the CheapInstrument app in order to decide how to internally represent an 'envelope' in its code, so that as many of the details drawn on a curve in this app can get expressed, but there isn't too much <b>latency</b> as the C.I. code would try to process a hundreds-long array of drawn points, to produce sound in real-time within one second...
+As said before, the point of this app is to output modules of data that can be used in the CheapInstrument music synthesizer application. However, it still needs to be figured out what this data should look like. More work needs to be done on the CheapInstrument app in order to decide how to internally represent an 'envelope' in its code, so that as many of the details drawn on a curve in this app can get expressed as possible, but there isn't too much <b>latency</b> as the C.I. code would try to process a hundreds-long array of drawn points, to produce sound in real-time within one second...
 
 <br>The solution might be a simple one, but some housekeeping is definitely in order on the CheapInstrument app.</br>
 
