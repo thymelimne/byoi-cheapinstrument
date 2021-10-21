@@ -18,5 +18,9 @@ Ultimately, this is a drawing app that can output modules of data that you can g
 
 With this project here, part of the goal is to <b>break away</b> from the convention of ADSR, and easily allow thinking-outside-the-box envelopes. It was decided that, at least for the time being, <b>hand-drawing</b> is the simplest route to go to allow a user to define their own graphical function.
 
+<h2>A drawing app</h2>
 
+Using Python (in particular, an open-source Python library for graphics, called Kivy), an interactive drawing feature was made for this project. To make it user-friendly and intuitive, a fair amount of geometry has been put into the code, in hopes that the user's drawn line would look like a blotty-yet-smooth penstroke. Interestingly (well, mildly interesting), a small bug in the geometry has caused it to have a smooth ribbon-like quality, instead of what was intended. While this is okay for now, there is a plan to fix that bug, and enable the option to have a ribbon-stroke or a proper penstroke style for drawing.
+
+<h2>Footnotes</h2>
 [SEE2]For more details on how diverse oscillators can get, and the different sounds you can get, here's a simple demonstration by the great Wendy Carlos. https://www.youtube.com/watch?v=4SBDH5uhs4Q
