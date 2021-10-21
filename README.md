@@ -33,7 +33,7 @@ Using Python (in particular, an open-source Python library for graphics, called 
 ![Screenshot (607)](https://user-images.githubusercontent.com/91765107/138289879-7e02b420-0edb-4077-ac08-6c662c578b52.png)
 
 ![Screenshot (608)](https://user-images.githubusercontent.com/91765107/138289909-51809ba4-9dbd-472c-bc4d-8d9ed939c3aa.png)
-```Above is```
+```Above are three more examples of possible curves.```
 
 
 <h2>The next challenge: choice of data type</h2>
